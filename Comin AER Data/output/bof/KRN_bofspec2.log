@@ -1,0 +1,30 @@
+=============================================================================================================
+Estimation for bof and KRN, specification 2
+=============================================================================================================
+   
+US parameters:
+-------------------------------------------------------------------
+elascoef1 = 6.297341445722362
+elascoef2 = 6.297341445722362
+trend     = -.0221095683639657
+-------------------------------------------------------------------
+   
+Model specification estimated:
+( lnYtou = lnY + {b1} + (1.3-1)*ln(t-{b2=1973})*{b3=6.297341445722362} - (1-.3)*lnYpercap*6.297341445722362 + 
+> -.0221095683639657*t  ) 
+-------------------------------------------------------------------
+(obs = 13)
+
+Iteration 0:  residual SS =  21242.51
+Iteration 1:  residual SS =  326.6192
+Iteration 2:  residual SS =  262.8208
+Iteration 3:  residual SS =  163.4446
+Iteration 4:  residual SS =  120.2237
+Iteration 5:  residual SS =  116.3954
+Iteration 6:  residual SS =  112.8008
+Iteration 7:  residual SS =   111.935
+Iteration 8:  residual SS =  111.0944
+Iteration 9:  residual SS =  110.6679
+Iteration 10:  residual SS =  110.2397
+Iteration 11:  cannot calculate derivatives
+equation/system not identified

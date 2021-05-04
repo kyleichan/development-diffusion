@@ -1,0 +1,25 @@
+=============================================================================================================
+Estimation for rail_pass and FRA, specification 1
+=============================================================================================================
+   
+US parameters:
+-------------------------------------------------------------------
+elascoef1 = 2.072647503008684
+elascoef2 = 2.072647503008684
+trend     = -.0240116130922127
+-------------------------------------------------------------------
+   
+Model specification estimated:
+( lnYtou = lnY + {b1} + (1.3-1)*ln(t-{b2=1836})*2.072647503008684 - (1-.3)*lnYpercap*2.072647503008684 + -.024
+> 0116130922127*t  ) 
+-------------------------------------------------------------------
+(obs = 146)
+
+Iteration 0:  residual SS =  270191.2
+Iteration 1:  residual SS =  253611.9
+Iteration 2:  residual SS =  238049.3
+Iteration 3:  residual SS =  209327.6
+Iteration 4:  residual SS =  160412.3
+Iteration 5:  residual SS =  90506.88
+Iteration 6:  cannot calculate derivatives
+equation/system not identified

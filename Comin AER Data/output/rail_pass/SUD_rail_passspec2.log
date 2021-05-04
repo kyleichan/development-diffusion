@@ -1,0 +1,31 @@
+=============================================================================================================
+Estimation for rail_pass and SUD, specification 2
+=============================================================================================================
+   
+US parameters:
+-------------------------------------------------------------------
+elascoef1 = 2.072647503008684
+elascoef2 = 2.072647503008684
+trend     = -.0240116130922127
+-------------------------------------------------------------------
+   
+Model specification estimated:
+( lnYtou = lnY + {b1} + (1.3-1)*ln(t-{b2=1961})*{b3=2.072647503008684} - (1-.3)*lnYpercap*2.072647503008684 + 
+> -.0240116130922127*t  ) 
+-------------------------------------------------------------------
+(obs = 28)
+
+Iteration 0:  residual SS =  51309.05
+Iteration 1:  residual SS =  14.05479
+Iteration 2:  residual SS =  13.63179
+Iteration 3:  residual SS =  13.44662
+Iteration 4:  residual SS =  12.88692
+Iteration 5:  residual SS =   12.0955
+Iteration 6:  residual SS =  11.39554
+Iteration 7:  residual SS =  9.592562
+Iteration 8:  residual SS =  7.640175
+Iteration 9:  residual SS =  6.068064
+Iteration 10:  residual SS =  5.450165
+Iteration 11:  residual SS =  5.174964
+Iteration 12:  cannot calculate derivatives
+equation/system not identified

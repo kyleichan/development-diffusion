@@ -1,0 +1,52 @@
+=============================================================================================================
+Estimation for rail_pass and SRL, specification 2
+=============================================================================================================
+   
+US parameters:
+-------------------------------------------------------------------
+elascoef1 = 2.072647503008684
+elascoef2 = 2.072647503008684
+trend     = -.0240116130922127
+-------------------------------------------------------------------
+   
+Model specification estimated:
+( lnYtou = lnY + {b1} + (1.3-1)*ln(t-{b2=1945})*{b3=2.072647503008684} - (1-.3)*lnYpercap*2.072647503008684 + 
+> -.0240116130922127*t  ) 
+-------------------------------------------------------------------
+(obs = 21)
+
+Iteration 0:  residual SS =  36016.89
+Iteration 1:  residual SS =  70.67268
+Iteration 2:  residual SS =  70.65609
+Iteration 3:  residual SS =  70.63631
+Iteration 4:  residual SS =   70.6136
+Iteration 5:  residual SS =  70.58819
+Iteration 6:  residual SS =   70.5603
+Iteration 7:  residual SS =  70.53013
+Iteration 8:  residual SS =  70.49785
+Iteration 9:  residual SS =  70.49728
+Iteration 10:  residual SS =  70.48224
+Iteration 11:  residual SS =  70.45476
+Iteration 12:  residual SS =  70.41653
+Iteration 13:  residual SS =  70.36897
+Iteration 14:  residual SS =  70.31327
+Iteration 15:  residual SS =  70.25045
+Iteration 16:  residual SS =  70.24644
+Iteration 17:  residual SS =  70.19809
+Iteration 18:  residual SS =  70.11492
+Iteration 19:  residual SS =  70.00408
+Iteration 20:  residual SS =  69.87101
+Iteration 21:  residual SS =  69.80913
+Iteration 22:  residual SS =  69.62846
+Iteration 23:  residual SS =  69.36685
+Iteration 24:  residual SS =  69.17292
+Iteration 25:  residual SS =  68.65179
+Iteration 26:  residual SS =  68.00514
+Iteration 27:  residual SS =  66.47083
+Iteration 28:  residual SS =  60.05559
+Iteration 29:  residual SS =  53.42262
+Iteration 30:  residual SS =  47.59007
+Iteration 31:  residual SS =  42.45243
+Iteration 32:  residual SS =  37.90335
+Iteration 33:  cannot calculate derivatives
+equation/system not identified

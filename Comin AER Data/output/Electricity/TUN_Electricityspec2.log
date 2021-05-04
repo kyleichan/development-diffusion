@@ -1,0 +1,60 @@
+=============================================================================================================
+Estimation for Electricity and TUN, specification 2
+=============================================================================================================
+   
+US parameters:
+-------------------------------------------------------------------
+elascoef1 = 1.2233781159605
+elascoef2 = 1.2233781159605
+trend     = .0376276026887113
+-------------------------------------------------------------------
+   
+Model specification estimated:
+( lnYtou = lnY + {b1} + (1.3-1)*ln(t-{b2=1945})*{b3=1.2233781159605} - (1-.3)*lnYpercap*1.2233781159605 + .037
+> 6276026887113*t  ) 
+-------------------------------------------------------------------
+(obs = 52)
+
+Iteration 0:  residual SS =    207930
+Iteration 1:  residual SS =  201530.1
+Iteration 2:  residual SS =  2.601439
+Iteration 3:  residual SS =  2.524307
+Iteration 4:  residual SS =    2.3529
+Iteration 5:  residual SS =  1.829553
+Iteration 6:  residual SS =   .688163
+Iteration 7:  residual SS =  .6850279
+Iteration 8:  residual SS =  .6839391
+Iteration 9:  residual SS =  .6838224
+Iteration 10:  residual SS =  .6838039
+Iteration 11:  residual SS =  .6838009
+Iteration 12:  residual SS =  .6838002
+Iteration 13:  residual SS =  .6838001
+Iteration 14:  residual SS =     .6838
+Iteration 15:  residual SS =     .6838
+Iteration 16:  residual SS =     .6838
+Iteration 17:  residual SS =     .6838
+Iteration 18:  residual SS =     .6838
+Iteration 19:  residual SS =     .6838
+Iteration 20:  residual SS =     .6838
+Iteration 21:  residual SS =     .6838
+Iteration 22:  residual SS =     .6838
+Iteration 23:  residual SS =     .6838
+Iteration 24:  residual SS =     .6838
+
+      Source |       SS       df       MS            Number of obs =        52
+-------------+------------------------------         F(  2,    49) =   3389.44
+       Model |  94.5999047     2  47.2999523         Prob > F      =    0.0000
+    Residual |  .683799981    49  .013955102         R-squared     =    0.9928
+-------------+------------------------------         Adj R-squared =    0.9925
+       Total |  95.2837047    51  1.86830793         Root MSE      =  .1181317
+                                                     Res. dev.     = -77.65974
+
+------------------------------------------------------------------------------
+      lnYtou |      Coef.   Std. Err.      t    P>|t|     [95% Conf. Interval]
+-------------+----------------------------------------------------------------
+          b1 |  -73.23854   7.659425    -9.56   0.000    -88.63073   -57.84635
+          b2 |    1881.04   51.03596    36.86   0.000     1778.479      1983.6
+          b3 |   8.230357   4.625296     1.78   0.081    -1.064524    17.52524
+------------------------------------------------------------------------------
+* Parameter b1 taken as constant term in model & ANOVA table
+ (SEs, P values, CIs, and correlations are asymptotic approximations)

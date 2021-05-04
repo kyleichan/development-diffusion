@@ -1,0 +1,26 @@
+=============================================================================================================
+Estimation for Cars and CHD, specification 2
+=============================================================================================================
+   
+US parameters:
+-------------------------------------------------------------------
+elascoef1 = 6.400111120162404
+elascoef2 = 6.400111120162404
+trend     = .0699042705884224
+-------------------------------------------------------------------
+   
+Model specification estimated:
+( lnYtou = lnY + {b1} + (1.3-1)*ln(t-{b2=1945})*{b3=6.400111120162404} - (1-.3)*lnYpercap*6.400111120162404 + .0699042705884224*t  ) 
+-------------------------------------------------------------------
+(obs = 42)
+
+Iteration 0:  residual SS =  900802.1
+Iteration 1:  residual SS =  873147.8
+Iteration 2:  residual SS =    668707
+Iteration 3:  residual SS =  512012.6
+Iteration 4:  residual SS =  392010.8
+Iteration 5:  residual SS =  300125.1
+Iteration 6:  residual SS =  229767.6
+Iteration 7:  residual SS =  175885.7
+Iteration 8:  cannot calculate derivatives
+equation/system not identified

@@ -1,0 +1,50 @@
+=============================================================================================================
+Estimation for Aviation_freight and CHL, specification 1
+=============================================================================================================
+   
+US parameters:
+-------------------------------------------------------------------
+elascoef1 = 4.716060423565893
+elascoef2 = 4.716060423565893
+trend     = .1544685281312922
+-------------------------------------------------------------------
+   
+Model specification estimated:
+( lnYtou = lnY + {b1} + (1.3-1)*ln(t-{b2=1939})*4.716060423565893 - (1-.3)*lnYpercap*4.716060423565893 + .1544
+> 685281312922*t  ) 
+-------------------------------------------------------------------
+(obs = 48)
+
+Iteration 0:  residual SS =   4646029
+Iteration 1:  residual SS =   4361092
+Iteration 2:  residual SS =    37.831
+Iteration 3:  residual SS =  29.91018
+Iteration 4:  residual SS =  26.32203
+Iteration 5:  residual SS =  24.76713
+Iteration 6:  residual SS =  24.08317
+Iteration 7:  residual SS =   23.8046
+Iteration 8:  residual SS =  23.72066
+Iteration 9:  residual SS =  23.70496
+Iteration 10:  residual SS =  23.70303
+Iteration 11:  residual SS =  23.70281
+Iteration 12:  residual SS =  23.70278
+Iteration 13:  residual SS =  23.70277
+Iteration 14:  residual SS =  23.70277
+Iteration 15:  residual SS =  23.70277
+
+      Source |       SS       df       MS            Number of obs =        48
+-------------+------------------------------         F(  1,    46) =    411.82
+       Model |  212.200013     1  212.200013         Prob > F      =    0.0000
+    Residual |  23.7027743    46  .515277703         R-squared     =    0.8995
+-------------+------------------------------         Adj R-squared =    0.8973
+       Total |  235.902787    47  5.01920824         Root MSE      =  .7178285
+                                                     Res. dev.     =  102.3489
+
+------------------------------------------------------------------------------
+      lnYtou |      Coef.   Std. Err.      t    P>|t|     [95% Conf. Interval]
+-------------+----------------------------------------------------------------
+          b1 |  -313.6994   1.129581  -277.71   0.000    -315.9732   -311.4257
+          b2 |   1815.565   119.7706    15.16   0.000     1574.479    2056.651
+------------------------------------------------------------------------------
+* Parameter b1 taken as constant term in model & ANOVA table
+ (SEs, P values, CIs, and correlations are asymptotic approximations)

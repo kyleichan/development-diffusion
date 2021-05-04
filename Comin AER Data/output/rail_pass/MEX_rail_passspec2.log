@@ -1,0 +1,56 @@
+=============================================================================================================
+Estimation for rail_pass and MEX, specification 2
+=============================================================================================================
+   
+US parameters:
+-------------------------------------------------------------------
+elascoef1 = 2.072647503008684
+elascoef2 = 2.072647503008684
+trend     = -.0240116130922127
+-------------------------------------------------------------------
+   
+Model specification estimated:
+( lnYtou = lnY + {b1} + (1.3-1)*ln(t-{b2=1916})*{b3=2.072647503008684} - (1-.3)*lnYpercap*2.072647503008684 + 
+> -.0240116130922127*t  ) 
+-------------------------------------------------------------------
+(obs = 73)
+
+Iteration 0:  residual SS =  134168.7
+Iteration 1:  residual SS =  278.9384
+Iteration 2:  residual SS =  3.927354
+Iteration 3:  residual SS =  3.618626
+Iteration 4:  residual SS =  3.557716
+Iteration 5:  residual SS =  3.554732
+Iteration 6:  residual SS =  3.554284
+Iteration 7:  residual SS =  3.554223
+Iteration 8:  residual SS =  3.554211
+Iteration 9:  residual SS =  3.554208
+Iteration 10:  residual SS =  3.554207
+Iteration 11:  residual SS =  3.554207
+Iteration 12:  residual SS =  3.554207
+Iteration 13:  residual SS =  3.554207
+Iteration 14:  residual SS =  3.554207
+Iteration 15:  residual SS =  3.554207
+Iteration 16:  residual SS =  3.554207
+Iteration 17:  residual SS =  3.554207
+Iteration 18:  residual SS =  3.554207
+Iteration 19:  residual SS =  3.554207
+Iteration 20:  residual SS =  3.554207
+
+      Source |       SS       df       MS            Number of obs =        73
+-------------+------------------------------         F(  2,    70) =    148.10
+       Model |  15.0393129     2  7.51965644         Prob > F      =    0.0000
+    Residual |  3.55420655    70  .050774379         R-squared     =    0.8088
+-------------+------------------------------         Adj R-squared =    0.8034
+       Total |  18.5935194    72  .258243326         Root MSE      =  .2253317
+                                                     Res. dev.     = -13.46489
+
+------------------------------------------------------------------------------
+      lnYtou |      Coef.   Std. Err.      t    P>|t|     [95% Conf. Interval]
+-------------+----------------------------------------------------------------
+          b1 |   32.42006   6.798357     4.77   0.000     18.86117    45.97896
+          b2 |   1857.008   41.29975    44.96   0.000     1774.639    1939.378
+          b3 |   9.197109   4.080118     2.25   0.027      1.05957    17.33465
+------------------------------------------------------------------------------
+* Parameter b1 taken as constant term in model & ANOVA table
+ (SEs, P values, CIs, and correlations are asymptotic approximations)

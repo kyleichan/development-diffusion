@@ -1,0 +1,26 @@
+=============================================================================================================
+Estimation for Ships and HON, specification 2
+=============================================================================================================
+   
+US parameters:
+-------------------------------------------------------------------
+elascoef1 = 3.313753501972318
+elascoef2 = 3.313753501972318
+trend     = .0272547819258236
+-------------------------------------------------------------------
+   
+Model specification estimated:
+( lnYtou = lnY + {b1} + (1.3-1)*ln(t-{b2=1915})*{b3=3.313753501972318} - (1-.3)*lnYpercap*3.313753501972318 + 
+> .0272547819258236*t  ) 
+-------------------------------------------------------------------
+(obs = 65)
+
+Iteration 0:  residual SS =  225881.5
+Iteration 1:  residual SS =  212083.9
+Iteration 2:  residual SS =  162465.9
+Iteration 3:  residual SS =  124381.2
+Iteration 4:  residual SS =  109321.5
+Iteration 5:  residual SS =  96083.81
+Iteration 6:  residual SS =  84446.36
+Iteration 7:  cannot calculate derivatives
+equation/system not identified

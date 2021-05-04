@@ -1,0 +1,57 @@
+=============================================================================================================
+Estimation for Telegraph and BRA, specification 1
+=============================================================================================================
+   
+US parameters:
+-------------------------------------------------------------------
+elascoef1 = 4.086018427138616
+elascoef2 = 4.086018427138616
+trend     = .002873452387316
+-------------------------------------------------------------------
+   
+Model specification estimated:
+( lnYtou = lnY + {b1} + (1.3-1)*ln(t-{b2=1867})*4.086018427138616 - (1-.3)*lnYpercap*4.086018427138616 + .0028
+> 73452387316*t  ) 
+-------------------------------------------------------------------
+(obs = 119)
+
+Iteration 0:  residual SS =  41337.25
+Iteration 1:  residual SS =  23198.45
+Iteration 2:  residual SS =  5863.217
+Iteration 3:  residual SS =  93.12636
+Iteration 4:  residual SS =  93.12471
+Iteration 5:  residual SS =  93.11021
+Iteration 6:  residual SS =  93.10803
+Iteration 7:  residual SS =  93.10293
+Iteration 8:  residual SS =  93.10149
+Iteration 9:  residual SS =  93.09955
+Iteration 10:  residual SS =  93.09875
+Iteration 11:  residual SS =  93.09799
+Iteration 12:  residual SS =  93.09756
+Iteration 13:  residual SS =  93.09726
+Iteration 14:  residual SS =  93.09704
+Iteration 15:  residual SS =  93.09692
+Iteration 16:  residual SS =  93.09681
+Iteration 17:  residual SS =  93.09676
+Iteration 18:  residual SS =  93.09671
+Iteration 19:  residual SS =  93.09669
+Iteration 20:  residual SS =  93.09666
+Iteration 21:  residual SS =  93.09666
+Iteration 22:  residual SS =  93.09664
+
+      Source |       SS       df       MS            Number of obs =       119
+-------------+------------------------------         F(  1,   117) =    278.17
+       Model |  221.342054     1  221.342054         Prob > F      =    0.0000
+    Residual |  93.0966252   117  .795697651         R-squared     =    0.7039
+-------------+------------------------------         Adj R-squared =    0.7014
+       Total |  314.438679   118  2.66473457         Root MSE      =  .8920189
+                                                     Res. dev.     =  308.4946
+
+------------------------------------------------------------------------------
+      lnYtou |      Coef.   Std. Err.      t    P>|t|     [95% Conf. Interval]
+-------------+----------------------------------------------------------------
+          b1 |  -18.43464   .0863793  -213.42   0.000    -18.60571   -18.26357
+          b2 |   1871.294   .4603679  4064.78   0.000     1870.382    1872.205
+------------------------------------------------------------------------------
+* Parameter b1 taken as constant term in model & ANOVA table
+ (SEs, P values, CIs, and correlations are asymptotic approximations)

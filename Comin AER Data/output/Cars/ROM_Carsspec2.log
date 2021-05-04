@@ -1,0 +1,26 @@
+=============================================================================================================
+Estimation for Cars and ROM, specification 2
+=============================================================================================================
+   
+US parameters:
+-------------------------------------------------------------------
+elascoef1 = 6.400111120162404
+elascoef2 = 6.400111120162404
+trend     = .0699042705884224
+-------------------------------------------------------------------
+   
+Model specification estimated:
+( lnYtou = lnY + {b1} + (1.3-1)*ln(t-{b2=1921})*{b3=6.400111120162404} - (1-.3)*lnYpercap*6.400111120162404 + .0699042705884224*t  ) 
+-------------------------------------------------------------------
+(obs = 13)
+
+Iteration 0:  residual SS =  237695.6
+Iteration 1:  residual SS =  230645.4
+Iteration 2:  residual SS =  130047.1
+Iteration 3:  residual SS =  73268.55
+Iteration 4:  residual SS =  56093.51
+Iteration 5:  residual SS =  49298.01
+Iteration 6:  residual SS =  43318.61
+Iteration 7:  residual SS =  40653.37
+Iteration 8:  cannot calculate derivatives
+equation/system not identified

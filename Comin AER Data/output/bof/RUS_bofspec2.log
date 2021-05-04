@@ -1,0 +1,30 @@
+=============================================================================================================
+Estimation for bof and RUS, specification 2
+=============================================================================================================
+   
+US parameters:
+-------------------------------------------------------------------
+elascoef1 = 6.297341445722362
+elascoef2 = 6.297341445722362
+trend     = -.0221095683639657
+-------------------------------------------------------------------
+   
+Model specification estimated:
+( lnYtou = lnY + {b1} + (1.3-1)*ln(t-{b2=1968})*{b3=6.297341445722362} - (1-.3)*lnYpercap*6.297341445722362 + 
+> -.0221095683639657*t  ) 
+-------------------------------------------------------------------
+(obs = 12)
+
+Iteration 0:  residual SS =  30550.71
+Iteration 1:  residual SS =  191.4692
+Iteration 2:  residual SS =  181.5042
+Iteration 3:  residual SS =  181.1807
+Iteration 4:  residual SS =  165.2409
+Iteration 5:  residual SS =  142.2185
+Iteration 6:  residual SS =   115.804
+Iteration 7:  residual SS =  108.3746
+Iteration 8:  residual SS =  104.8869
+Iteration 9:  residual SS =  103.2715
+Iteration 10:  residual SS =  101.6926
+Iteration 11:  cannot calculate derivatives
+equation/system not identified

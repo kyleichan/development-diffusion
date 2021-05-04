@@ -1,0 +1,28 @@
+=============================================================================================================
+Estimation for Trucks and GAB, specification 2
+=============================================================================================================
+   
+US parameters:
+-------------------------------------------------------------------
+elascoef1 = 6.838224310560782
+elascoef2 = 6.838224310560782
+trend     = .0830416299572568
+-------------------------------------------------------------------
+   
+Model specification estimated:
+( lnYtou = lnY + {b1} + (1.3-1)*ln(t-{b2=1945})*{b3=6.838224310560782} - (1-.3)*lnYpercap*6.838224310560782 + 
+> .0830416299572568*t  ) 
+-------------------------------------------------------------------
+(obs = 43)
+
+Iteration 0:  residual SS =   1222886
+Iteration 1:  residual SS =   1185680
+Iteration 2:  residual SS =  667139.6
+Iteration 3:  residual SS =  375305.4
+Iteration 4:  residual SS =  211129.9
+Iteration 5:  residual SS =  118777.6
+Iteration 6:  residual SS =  66829.67
+Iteration 7:  residual SS =   37610.3
+Iteration 8:  residual SS =  21175.93
+Iteration 9:  cannot calculate derivatives
+equation/system not identified

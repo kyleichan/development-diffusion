@@ -1,0 +1,29 @@
+=============================================================================================================
+Estimation for Electricity and RUS, specification 2
+=============================================================================================================
+   
+US parameters:
+-------------------------------------------------------------------
+elascoef1 = 1.2233781159605
+elascoef2 = 1.2233781159605
+trend     = .0376276026887113
+-------------------------------------------------------------------
+   
+Model specification estimated:
+( lnYtou = lnY + {b1} + (1.3-1)*ln(t-{b2=1968})*{b3=1.2233781159605} - (1-.3)*lnYpercap*1.2233781159605 + .037
+> 6276026887113*t  ) 
+-------------------------------------------------------------------
+(obs = 12)
+
+Iteration 0:  residual SS =  42009.48
+Iteration 1:  residual SS =   41366.9
+Iteration 2:  residual SS =  38825.12
+Iteration 3:  residual SS =  37620.54
+Iteration 4:  residual SS =  36450.22
+Iteration 5:  residual SS =  35880.97
+Iteration 6:  residual SS =  35318.19
+Iteration 7:  residual SS =  35041.61
+Iteration 8:  residual SS =  34766.86
+Iteration 9:  residual SS =  34494.55
+Iteration 10:  cannot calculate derivatives
+equation/system not identified

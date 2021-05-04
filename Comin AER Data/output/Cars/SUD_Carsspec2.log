@@ -1,0 +1,27 @@
+=============================================================================================================
+Estimation for Cars and SUD, specification 2
+=============================================================================================================
+   
+US parameters:
+-------------------------------------------------------------------
+elascoef1 = 6.400111120162404
+elascoef2 = 6.400111120162404
+trend     = .0699042705884224
+-------------------------------------------------------------------
+   
+Model specification estimated:
+( lnYtou = lnY + {b1} + (1.3-1)*ln(t-{b2=1945})*{b3=6.400111120162404} - (1-.3)*lnYpercap*6.400111120162404 + 
+> .0699042705884224*t  ) 
+-------------------------------------------------------------------
+(obs = 43)
+
+Iteration 0:  residual SS =    881525
+Iteration 1:  residual SS =  854635.6
+Iteration 2:  residual SS =  481068.2
+Iteration 3:  residual SS =  270706.6
+Iteration 4:  residual SS =  152293.6
+Iteration 5:  residual SS =  85661.21
+Iteration 6:  residual SS =  65584.29
+Iteration 7:  residual SS =   50211.2
+Iteration 8:  cannot calculate derivatives
+equation/system not identified

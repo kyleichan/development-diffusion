@@ -1,0 +1,26 @@
+=============================================================================================================
+Estimation for Ships and SAF, specification 2
+=============================================================================================================
+   
+US parameters:
+-------------------------------------------------------------------
+elascoef1 = 3.313753501972318
+elascoef2 = 3.313753501972318
+trend     = .0272547819258236
+-------------------------------------------------------------------
+   
+Model specification estimated:
+( lnYtou = lnY + {b1} + (1.3-1)*ln(t-{b2=1908})*{b3=3.313753501972318} - (1-.3)*lnYpercap*3.313753501972318 + 
+> .0272547819258236*t  ) 
+-------------------------------------------------------------------
+(obs = 44)
+
+Iteration 0:  residual SS =    159840
+Iteration 1:  residual SS =  150040.6
+Iteration 2:  residual SS =  84419.69
+Iteration 3:  residual SS =  47490.95
+Iteration 4:  residual SS =  36359.38
+Iteration 5:  residual SS =   27828.9
+Iteration 6:  residual SS =  24457.89
+Iteration 7:  cannot calculate derivatives
+equation/system not identified

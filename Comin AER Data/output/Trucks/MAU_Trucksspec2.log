@@ -1,0 +1,25 @@
+=============================================================================================================
+Estimation for Trucks and MAU, specification 2
+=============================================================================================================
+   
+US parameters:
+-------------------------------------------------------------------
+elascoef1 = 6.838224310560782
+elascoef2 = 6.838224310560782
+trend     = .0830416299572568
+-------------------------------------------------------------------
+   
+Model specification estimated:
+( lnYtou = lnY + {b1} + (1.3-1)*ln(t-{b2=1949})*{b3=6.838224310560782} - (1-.3)*lnYpercap*6.838224310560782 + 
+> .0830416299572568*t  ) 
+-------------------------------------------------------------------
+(obs = 37)
+
+Iteration 0:  residual SS =   1159903
+Iteration 1:  residual SS =   1124392
+Iteration 2:  residual SS =  632623.5
+Iteration 3:  residual SS =    355843
+Iteration 4:  residual SS =  200102.9
+Iteration 5:  residual SS =  153206.3
+Iteration 6:  cannot calculate derivatives
+equation/system not identified

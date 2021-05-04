@@ -1,0 +1,54 @@
+=============================================================================================================
+Estimation for Cars and TUN, specification 2
+=============================================================================================================
+   
+US parameters:
+-------------------------------------------------------------------
+elascoef1 = 6.400111120162404
+elascoef2 = 6.400111120162404
+trend     = .0699042705884224
+-------------------------------------------------------------------
+   
+Model specification estimated:
+( lnYtou = lnY + {b1} + (1.3-1)*ln(t-{b2=1945})*{b3=6.400111120162404} - (1-.3)*lnYpercap*6.400111120162404 + 
+> .0699042705884224*t  ) 
+-------------------------------------------------------------------
+(obs = 44)
+
+Iteration 0:  residual SS =  846646.2
+Iteration 1:  residual SS =  820753.6
+Iteration 2:  residual SS =  5.193733
+Iteration 3:  residual SS =  4.149796
+Iteration 4:  residual SS =  3.743049
+Iteration 5:  residual SS =  3.416932
+Iteration 6:  residual SS =  3.082199
+Iteration 7:  residual SS =  3.001919
+Iteration 8:  residual SS =  3.000675
+Iteration 9:  residual SS =   3.00061
+Iteration 10:  residual SS =  3.000604
+Iteration 11:  residual SS =  3.000603
+Iteration 12:  residual SS =  3.000602
+Iteration 13:  residual SS =  3.000602
+Iteration 14:  residual SS =  3.000602
+Iteration 15:  residual SS =  3.000602
+Iteration 16:  residual SS =  3.000602
+Iteration 17:  residual SS =  3.000602
+Iteration 18:  residual SS =  3.000602
+
+      Source |       SS       df       MS            Number of obs =        44
+-------------+------------------------------         F(  2,    41) =    122.33
+       Model |  17.9049933     2  8.95249666         Prob > F      =    0.0000
+    Residual |  3.00060234    41  .073185423         R-squared     =    0.8565
+-------------+------------------------------         Adj R-squared =    0.8495
+       Total |  20.9055956    43  .486176643         Root MSE      =   .270528
+                                                     Res. dev.     =  6.710021
+
+------------------------------------------------------------------------------
+      lnYtou |      Coef.   Std. Err.      t    P>|t|     [95% Conf. Interval]
+-------------+----------------------------------------------------------------
+          b1 |   -149.918    10.4539   -14.34   0.000    -171.0301    -128.806
+          b2 |   1908.943   28.77448    66.34   0.000     1850.832    1967.055
+          b3 |   13.93658   6.847298     2.04   0.048     .1081853    27.76498
+------------------------------------------------------------------------------
+* Parameter b1 taken as constant term in model & ANOVA table
+ (SEs, P values, CIs, and correlations are asymptotic approximations)

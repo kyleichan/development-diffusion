@@ -1,0 +1,86 @@
+=============================================================================================================
+Estimation for Telephone and BEL, specification 2
+=============================================================================================================
+   
+US parameters:
+-------------------------------------------------------------------
+elascoef1 = 4.011261128231718
+elascoef2 = 4.011261128231718
+trend     = .0606950657105945
+-------------------------------------------------------------------
+   
+Model specification estimated:
+( lnYtou = lnY + {b1} + (1.3-1)*ln(t-{b2=1985})*{b3=4.011261128231718} - (1-.3)*lnYpercap*4.011261128231718 + 
+> .0606950657105945*t  ) 
+-------------------------------------------------------------------
+(obs = 13)
+
+Iteration 0:  residual SS =  173123.9
+Iteration 1:  residual SS =  168060.5
+Iteration 2:  residual SS =  2.836608
+Iteration 3:  residual SS =  2.556953
+Iteration 4:  residual SS =  2.555181
+Iteration 5:  residual SS =  2.553639
+Iteration 6:  residual SS =  2.552351
+Iteration 7:  residual SS =  2.551343
+Iteration 8:  residual SS =  2.550646
+Iteration 9:  residual SS =  2.550295
+Iteration 10:  residual SS =  2.549151
+Iteration 11:  residual SS =  2.548061
+Iteration 12:  residual SS =  2.547028
+Iteration 13:  residual SS =  2.546055
+Iteration 14:  residual SS =  2.545147
+Iteration 15:  residual SS =  2.544307
+Iteration 16:  residual SS =   2.54354
+Iteration 17:  residual SS =   2.54285
+Iteration 18:  residual SS =  2.542242
+Iteration 19:  residual SS =  2.541721
+Iteration 20:  residual SS =  2.541294
+Iteration 21:  residual SS =  2.540967
+Iteration 22:  residual SS =  2.540746
+Iteration 23:  residual SS =  2.540641
+Iteration 24:  residual SS =   2.54007
+Iteration 25:  residual SS =  2.539516
+Iteration 26:  residual SS =  2.538979
+Iteration 27:  residual SS =  2.538459
+Iteration 28:  residual SS =  2.537958
+Iteration 29:  residual SS =  2.537477
+Iteration 30:  residual SS =  2.537014
+Iteration 31:  residual SS =  2.536573
+Iteration 32:  residual SS =  2.536153
+Iteration 33:  residual SS =  2.535754
+Iteration 34:  residual SS =  2.535379
+Iteration 35:  residual SS =  2.535028
+Iteration 36:  residual SS =  2.534702
+Iteration 37:  residual SS =  2.534402
+Iteration 38:  residual SS =  2.534128
+Iteration 39:  residual SS =  2.533883
+Iteration 40:  residual SS =  2.533667
+Iteration 41:  residual SS =  2.533482
+Iteration 42:  residual SS =  2.533328
+Iteration 43:  residual SS =  2.533208
+Iteration 44:  residual SS =  2.533122
+Iteration 45:  residual SS =  2.533072
+Iteration 46:  residual SS =  2.533061
+Iteration 47:  residual SS =  2.532781
+Iteration 48:  residual SS =  2.532507
+Iteration 49:  residual SS =  2.532238
+
+      Source |       SS       df       MS            Number of obs =        13
+-------------+------------------------------         F(  2,    10) =     -3.86
+       Model | -1.95597879     2 -.977989393         Prob > F      =    1.0000
+    Residual |  2.53197393    10  .253197393         R-squared     =   -3.3958
+-------------+------------------------------         Adj R-squared =   -4.2750
+       Total |  .575995142    12  .047999595         Root MSE      =  .5031872
+                                                     Res. dev.     =  15.62505
+
+------------------------------------------------------------------------------
+      lnYtou |      Coef.   Std. Err.      t    P>|t|     [95% Conf. Interval]
+-------------+----------------------------------------------------------------
+          b1 |   -124.197   105.7352    -1.17   0.267    -359.7897    111.3958
+          b2 |   1936.833   421.1925     4.60   0.001     998.3575    2875.308
+          b3 |   9.704602   69.51153     0.14   0.892    -145.1767    164.5859
+------------------------------------------------------------------------------
+* Parameter b1 taken as constant term in model & ANOVA table
+ (SEs, P values, CIs, and correlations are asymptotic approximations)
+convergence not achieved

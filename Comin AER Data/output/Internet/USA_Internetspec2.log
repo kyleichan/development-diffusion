@@ -1,0 +1,56 @@
+=============================================================================================================
+Estimation for Internet and USA, specification 2
+=============================================================================================================
+   
+US parameters:
+-------------------------------------------------------------------
+elascoef1 = 4.689628305958362
+elascoef2 = 4.689628305958362
+trend     = .2427768367866972
+-------------------------------------------------------------------
+   
+Model specification estimated:
+( lnYtou = lnY + {b1} + (1.3-1)*ln(t-{b2=1985})*{b3=4.689628305958362} - (1-.3)*lnYpercap*4.689628305958362 + 
+> .2427768367866972*t  ) 
+-------------------------------------------------------------------
+(obs = 13)
+
+Iteration 0:  residual SS =   2943872
+Iteration 1:  residual SS =   2922329
+Iteration 2:  residual SS =  1.303818
+Iteration 3:  residual SS =   .863965
+Iteration 4:  residual SS =   .863408
+Iteration 5:  residual SS =  .8632972
+Iteration 6:  residual SS =  .8632071
+Iteration 7:  residual SS =  .8631777
+Iteration 8:  residual SS =  .8631586
+Iteration 9:  residual SS =  .8631506
+Iteration 10:  residual SS =  .8631461
+Iteration 11:  residual SS =  .8631439
+Iteration 12:  residual SS =  .8631429
+Iteration 13:  residual SS =  .8631422
+Iteration 14:  residual SS =   .863142
+Iteration 15:  residual SS =  .8631418
+Iteration 16:  residual SS =  .8631418
+Iteration 17:  residual SS =  .8631417
+Iteration 18:  residual SS =  .8631417
+Iteration 19:  residual SS =  .8631417
+Iteration 20:  residual SS =  .8631417
+
+      Source |       SS       df       MS            Number of obs =        13
+-------------+------------------------------         F(  2,    10) =    167.40
+       Model |  28.8972025     2  14.4486013         Prob > F      =    0.0000
+    Residual |   .86314168    10  .086314168         R-squared     =    0.9710
+-------------+------------------------------         Adj R-squared =    0.9652
+       Total |  29.7603442    12  2.48002868         Root MSE      =  .2937927
+                                                     Res. dev.     =  1.634767
+
+------------------------------------------------------------------------------
+      lnYtou |      Coef.   Std. Err.      t    P>|t|     [95% Conf. Interval]
+-------------+----------------------------------------------------------------
+          b1 |   -475.993   2.476786  -192.18   0.000    -481.5116   -470.4744
+          b2 |   1986.678   3.481432   570.65   0.000     1978.921    1994.435
+          b3 |   5.313369   2.736158     1.94   0.081    -.7831701    11.40991
+------------------------------------------------------------------------------
+* Parameter b1 taken as constant term in model & ANOVA table
+ (SEs, P values, CIs, and correlations are asymptotic approximations)

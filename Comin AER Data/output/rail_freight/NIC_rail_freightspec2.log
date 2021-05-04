@@ -1,0 +1,27 @@
+=============================================================================================================
+Estimation for rail_freight and NIC, specification 2
+=============================================================================================================
+   
+US parameters:
+-------------------------------------------------------------------
+elascoef1 = 2.022390940937841
+elascoef2 = 2.022390940937841
+trend     = .0095935190936967
+-------------------------------------------------------------------
+   
+Model specification estimated:
+( lnYtou = lnY + {b1} + (1.3-1)*ln(t-{b2=1925})*{b3=2.022390940937841} - (1-.3)*lnYpercap*2.022390940937841 + 
+> .0095935190936967*t  ) 
+-------------------------------------------------------------------
+(obs = 56)
+
+Iteration 0:  residual SS =  35489.58
+Iteration 1:  residual SS =  31237.93
+Iteration 2:  residual SS =  27466.62
+Iteration 3:  residual SS =     24146
+Iteration 4:  residual SS =  21225.64
+Iteration 5:  residual SS =  18656.74
+Iteration 6:  residual SS =  17509.84
+Iteration 7:  residual SS =  16432.23
+Iteration 8:  cannot calculate derivatives
+equation/system not identified

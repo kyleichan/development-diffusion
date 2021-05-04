@@ -1,0 +1,27 @@
+=============================================================================================================
+Estimation for Ships and POR, specification 2
+=============================================================================================================
+   
+US parameters:
+-------------------------------------------------------------------
+elascoef1 = 3.313753501972318
+elascoef2 = 3.313753501972318
+trend     = .0272547819258236
+-------------------------------------------------------------------
+   
+Model specification estimated:
+( lnYtou = lnY + {b1} + (1.3-1)*ln(t-{b2=1915})*{b3=3.313753501972318} - (1-.3)*lnYpercap*3.313753501972318 + 
+> .0272547819258236*t  ) 
+-------------------------------------------------------------------
+(obs = 15)
+
+Iteration 0:  residual SS =  55729.13
+Iteration 1:  residual SS =  52445.96
+Iteration 2:  residual SS =  13161.86
+Iteration 3:  residual SS =  10078.95
+Iteration 4:  residual SS =  7716.871
+Iteration 5:  residual SS =  6781.913
+Iteration 6:  residual SS =  6364.473
+Iteration 7:  residual SS =  5972.567
+Iteration 8:  cannot calculate derivatives
+equation/system not identified

@@ -1,0 +1,28 @@
+=============================================================================================================
+Estimation for Aviation_freight and VNZ, specification 2
+=============================================================================================================
+   
+US parameters:
+-------------------------------------------------------------------
+elascoef1 = 4.716060423565893
+elascoef2 = 4.716060423565893
+trend     = .1544685281312922
+-------------------------------------------------------------------
+   
+Model specification estimated:
+( lnYtou = lnY + {b1} + (1.3-1)*ln(t-{b2=1946})*{b3=4.716060423565893} - (1-.3)*lnYpercap*4.716060423565893 + 
+> .1544685281312922*t  ) 
+-------------------------------------------------------------------
+(obs = 41)
+
+Iteration 0:  residual SS =   3916758
+Iteration 1:  residual SS =   3886672
+Iteration 2:  residual SS =   2977008
+Iteration 3:  residual SS =   2616560
+Iteration 4:  residual SS =   2299699
+Iteration 5:  residual SS =   2158201
+Iteration 6:  residual SS =   2025386
+Iteration 7:  residual SS =   1962579
+Iteration 8:  residual SS =   1901719
+Iteration 9:  cannot calculate derivatives
+equation/system not identified

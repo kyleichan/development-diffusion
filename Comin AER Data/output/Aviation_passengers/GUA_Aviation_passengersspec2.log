@@ -1,0 +1,26 @@
+=============================================================================================================
+Estimation for Aviation_passengers and GUA, specification 2
+=============================================================================================================
+   
+US parameters:
+-------------------------------------------------------------------
+elascoef1 = 3.606113678690623
+elascoef2 = 3.606113678690623
+trend     = .1050463220906398
+-------------------------------------------------------------------
+   
+Model specification estimated:
+( lnYtou = lnY + {b1} + (1.3-1)*ln(t-{b2=1952})*{b3=3.606113678690623} - (1-.3)*lnYpercap*3.606113678690623 + 
+> .1050463220906398*t  ) 
+-------------------------------------------------------------------
+(obs = 37)
+
+Iteration 0:  residual SS =   1678382
+Iteration 1:  residual SS =   1652863
+Iteration 2:  residual SS =  930063.7
+Iteration 3:  residual SS =  712086.7
+Iteration 4:  residual SS =  545174.3
+Iteration 5:  residual SS =  479149.5
+Iteration 6:  residual SS =  421109.9
+Iteration 7:  cannot calculate derivatives
+equation/system not identified

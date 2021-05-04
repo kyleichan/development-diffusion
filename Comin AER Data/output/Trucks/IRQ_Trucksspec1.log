@@ -1,0 +1,58 @@
+=============================================================================================================
+Estimation for Trucks and IRQ, specification 1
+=============================================================================================================
+   
+US parameters:
+-------------------------------------------------------------------
+elascoef1 = 6.838224310560782
+elascoef2 = 6.838224310560782
+trend     = .0830416299572568
+-------------------------------------------------------------------
+   
+Model specification estimated:
+( lnYtou = lnY + {b1} + (1.3-1)*ln(t-{b2=1945})*6.838224310560782 - (1-.3)*lnYpercap*6.838224310560782 + .0830
+> 416299572568*t  ) 
+-------------------------------------------------------------------
+(obs = 44)
+
+Iteration 0:  residual SS =   1285259
+Iteration 1:  residual SS =  985338.2
+Iteration 2:  residual SS =  155.5108
+Iteration 3:  residual SS =  140.8566
+Iteration 4:  residual SS =  134.0307
+Iteration 5:  residual SS =  130.9475
+Iteration 6:  residual SS =  129.5329
+Iteration 7:  residual SS =  128.8698
+Iteration 8:  residual SS =  128.5606
+Iteration 9:  residual SS =  128.4242
+Iteration 10:  residual SS =  128.3701
+Iteration 11:  residual SS =  128.3511
+Iteration 12:  residual SS =   128.345
+Iteration 13:  residual SS =  128.3431
+Iteration 14:  residual SS =  128.3425
+Iteration 15:  residual SS =  128.3423
+Iteration 16:  residual SS =  128.3422
+Iteration 17:  residual SS =  128.3422
+Iteration 18:  residual SS =  128.3422
+Iteration 19:  residual SS =  128.3422
+Iteration 20:  residual SS =  128.3422
+Iteration 21:  residual SS =  128.3422
+Iteration 22:  residual SS =  128.3422
+Iteration 23:  residual SS =  128.3422
+
+      Source |       SS       df       MS            Number of obs =        44
+-------------+------------------------------         F(  1,    42) =    -22.43
+       Model |   -68.54135     1   -68.54135         Prob > F      =    1.0000
+    Residual |  128.342209    42  3.05576688         R-squared     =   -1.1462
+-------------+------------------------------         Adj R-squared =   -1.1973
+       Total |   59.800859    43  1.39071765         Root MSE      =  1.748075
+                                                     Res. dev.     =  171.9691
+
+------------------------------------------------------------------------------
+      lnYtou |      Coef.   Std. Err.      t    P>|t|     [95% Conf. Interval]
+-------------+----------------------------------------------------------------
+          b1 |  -175.1998   3.836941   -45.66   0.000    -182.9431   -167.4566
+          b2 |   1785.992   344.4888     5.18   0.000     1090.786    2481.199
+------------------------------------------------------------------------------
+* Parameter b1 taken as constant term in model & ANOVA table
+ (SEs, P values, CIs, and correlations are asymptotic approximations)

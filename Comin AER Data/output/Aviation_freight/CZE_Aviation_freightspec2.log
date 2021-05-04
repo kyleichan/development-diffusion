@@ -1,0 +1,27 @@
+=============================================================================================================
+Estimation for Aviation_freight and CZE, specification 2
+=============================================================================================================
+   
+US parameters:
+-------------------------------------------------------------------
+elascoef1 = 4.716060423565893
+elascoef2 = 4.716060423565893
+trend     = .1544685281312922
+-------------------------------------------------------------------
+   
+Model specification estimated:
+( lnYtou = lnY + {b1} + (1.3-1)*ln(t-{b2=1943})*{b3=4.716060423565893} - (1-.3)*lnYpercap*4.716060423565893 + 
+> .1544685281312922*t  ) 
+-------------------------------------------------------------------
+(obs = 44)
+
+Iteration 0:  residual SS =   4284251
+Iteration 1:  residual SS =   4251408
+Iteration 2:  residual SS =   2392848
+Iteration 3:  residual SS =   1832086
+Iteration 4:  residual SS =   1402707
+Iteration 5:  residual SS =   1232844
+Iteration 6:  residual SS =   1083531
+Iteration 7:  residual SS =   1016863
+Iteration 8:  cannot calculate derivatives
+equation/system not identified

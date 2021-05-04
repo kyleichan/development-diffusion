@@ -1,0 +1,42 @@
+=============================================================================================================
+Estimation for rail_pass and KEN, specification 2
+=============================================================================================================
+   
+US parameters:
+-------------------------------------------------------------------
+elascoef1 = 2.072647503008684
+elascoef2 = 2.072647503008684
+trend     = -.0240116130922127
+-------------------------------------------------------------------
+   
+Model specification estimated:
+( lnYtou = lnY + {b1} + (1.3-1)*ln(t-{b2=1971})*{b3=2.072647503008684} - (1-.3)*lnYpercap*2.072647503008684 + 
+> -.0240116130922127*t  ) 
+-------------------------------------------------------------------
+(obs = 16)
+
+Iteration 0:  residual SS =  29796.91
+Iteration 1:  residual SS =  5.265017
+Iteration 2:  residual SS =  5.262425
+Iteration 3:  residual SS =  5.259305
+Iteration 4:  residual SS =  5.255721
+Iteration 5:  residual SS =  5.251727
+Iteration 6:  residual SS =  5.251468
+Iteration 7:  residual SS =  5.248644
+Iteration 8:  residual SS =  5.243769
+Iteration 9:  residual SS =  5.237239
+Iteration 10:  residual SS =  5.229364
+Iteration 11:  residual SS =  5.227473
+Iteration 12:  residual SS =  5.218279
+Iteration 13:  residual SS =  5.203973
+Iteration 14:  residual SS =  5.199679
+Iteration 15:  residual SS =  5.173957
+Iteration 16:  residual SS =  5.157083
+Iteration 17:  residual SS =  5.134565
+Iteration 18:  residual SS =  4.923631
+Iteration 19:  residual SS =  4.739927
+Iteration 20:  residual SS =   4.57478
+Iteration 21:  residual SS =  4.494403
+Iteration 22:  residual SS =  4.416478
+Iteration 23:  cannot calculate derivatives
+equation/system not identified

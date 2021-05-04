@@ -1,0 +1,26 @@
+=============================================================================================================
+Estimation for rail_freight and MLW, specification 2
+=============================================================================================================
+   
+US parameters:
+-------------------------------------------------------------------
+elascoef1 = 2.022390940937841
+elascoef2 = 2.022390940937841
+trend     = .0095935190936967
+-------------------------------------------------------------------
+   
+Model specification estimated:
+( lnYtou = lnY + {b1} + (1.3-1)*ln(t-{b2=1949})*{b3=2.022390940937841} - (1-.3)*lnYpercap*2.022390940937841 + 
+> .0095935190936967*t  ) 
+-------------------------------------------------------------------
+(obs = 40)
+
+Iteration 0:  residual SS =  24567.06
+Iteration 1:  residual SS =  21642.94
+Iteration 2:  residual SS =  19030.43
+Iteration 3:  residual SS =  16729.17
+Iteration 4:  residual SS =     14705
+Iteration 5:  residual SS =  12924.83
+Iteration 6:  residual SS =  11355.07
+Iteration 7:  cannot calculate derivatives
+equation/system not identified

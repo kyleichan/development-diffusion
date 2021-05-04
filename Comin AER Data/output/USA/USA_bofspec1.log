@@ -1,0 +1,48 @@
+=============================================================================================================
+Estimation for bof and USA, specification 1
+=============================================================================================================
+   
+US parameters:
+-------------------------------------------------------------------
+elascoef1 = {b3}
+elascoef2 = {b3}
+trend     = {b5}
+-------------------------------------------------------------------
+   
+Model specification estimated:
+( lnYtou = lnY + {b1} + (1.3-1)*ln(t-{b2=1955})*{b3} - (1-.3)*lnYpercap*{b3} + {b5}*t  ) 
+-------------------------------------------------------------------
+(obs = 41)
+
+Iteration 0:  residual SS =  900.2326
+Iteration 1:  residual SS =  7.005183
+Iteration 2:  residual SS =  5.265292
+Iteration 3:  residual SS =  4.443417
+Iteration 4:  residual SS =  3.834659
+Iteration 5:  residual SS =  3.670731
+Iteration 6:  residual SS =  3.645448
+Iteration 7:  residual SS =  3.643705
+Iteration 8:  residual SS =  3.642234
+Iteration 9:  residual SS =  3.642203
+Iteration 10:  residual SS =  3.642202
+Iteration 11:  residual SS =  3.642202
+Iteration 12:  residual SS =  3.642202
+
+      Source |       SS       df       MS            Number of obs =        41
+-------------+------------------------------         F(  3,    37) =     75.22
+       Model |  22.2146465     3  7.40488217         Prob > F      =    0.0000
+    Residual |  3.64220159    37  .098437881         R-squared     =    0.8591
+-------------+------------------------------         Adj R-squared =    0.8477
+       Total |  25.8568481    40  .646421203         Root MSE      =  .3137481
+                                                     Res. dev.     =  17.09263
+
+------------------------------------------------------------------------------
+      lnYtou |      Coef.   Std. Err.      t    P>|t|     [95% Conf. Interval]
+-------------+----------------------------------------------------------------
+          b1 |   46.70284   10.38146     4.50   0.000       25.668    67.73768
+          b2 |   1958.828   .5906263  3316.53   0.000     1957.631    1960.025
+          b3 |   6.297341   1.446003     4.35   0.000     3.367461    9.227222
+          b5 |  -.0221096   .0054285    -4.07   0.000    -.0331088   -.0111104
+------------------------------------------------------------------------------
+* Parameter b1 taken as constant term in model & ANOVA table
+ (SEs, P values, CIs, and correlations are asymptotic approximations)

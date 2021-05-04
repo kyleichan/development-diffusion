@@ -1,0 +1,25 @@
+=============================================================================================================
+Estimation for Cars and HAI, specification 2
+=============================================================================================================
+   
+US parameters:
+-------------------------------------------------------------------
+elascoef1 = 6.400111120162404
+elascoef2 = 6.400111120162404
+trend     = .0699042705884224
+-------------------------------------------------------------------
+   
+Model specification estimated:
+( lnYtou = lnY + {b1} + (1.3-1)*ln(t-{b2=1942})*{b3=6.400111120162404} - (1-.3)*lnYpercap*6.400111120162404 + .0699042705884224*t  ) 
+-------------------------------------------------------------------
+(obs = 45)
+
+Iteration 0:  residual SS =  919324.9
+Iteration 1:  residual SS =  891168.8
+Iteration 2:  residual SS =  223224.7
+Iteration 3:  residual SS =    170926
+Iteration 4:  residual SS =  150230.2
+Iteration 5:  residual SS =  132035.5
+Iteration 6:  residual SS =  123909.8
+Iteration 7:  cannot calculate derivatives
+equation/system not identified

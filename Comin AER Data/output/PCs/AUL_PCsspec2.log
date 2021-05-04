@@ -1,0 +1,67 @@
+=============================================================================================================
+Estimation for PCs and AUL, specification 2
+=============================================================================================================
+   
+US parameters:
+-------------------------------------------------------------------
+elascoef1 = 3.003557370581982
+elascoef2 = 3.003557370581982
+trend     = .0474278584763916
+-------------------------------------------------------------------
+   
+Model specification estimated:
+( lnYtou = lnY + {b1} + (1.3-1)*ln(t-{b2=1983})*{b3=3.003557370581982} - (1-.3)*lnYpercap*3.003557370581982 + 
+> .0474278584763916*t  ) 
+-------------------------------------------------------------------
+(obs = 15)
+
+Iteration 0:  residual SS =  116107.9
+Iteration 1:  residual SS =  109093.6
+Iteration 2:  residual SS =  .2105225
+Iteration 3:  residual SS =   .183776
+Iteration 4:  residual SS =  .1621282
+Iteration 5:  residual SS =  .1590969
+Iteration 6:  residual SS =  .1448085
+Iteration 7:  residual SS =  .1342638
+Iteration 8:  residual SS =  .1265939
+Iteration 9:  residual SS =  .1211005
+Iteration 10:  residual SS =  .1172077
+Iteration 11:  residual SS =  .1144283
+Iteration 12:  residual SS =  .1123423
+Iteration 13:  residual SS =   .110585
+Iteration 14:  residual SS =  .1088435
+Iteration 15:  residual SS =  .1068582
+Iteration 16:  residual SS =  .1044285
+Iteration 17:  residual SS =  .1014177
+Iteration 18:  residual SS =  .0977562
+Iteration 19:  residual SS =  .0934407
+Iteration 20:  residual SS =  .0885285
+Iteration 21:  residual SS =  .0831268
+Iteration 22:  residual SS =  .0773785
+Iteration 23:  residual SS =  .0714455
+Iteration 24:  residual SS =  .0654933
+Iteration 25:  residual SS =  .0652412
+Iteration 26:  residual SS =  .0585621
+Iteration 27:  residual SS =  .0493665
+Iteration 28:  residual SS =  .0426095
+Iteration 29:  residual SS =  .0265269
+Iteration 30:  residual SS =  .0174648
+Iteration 31:  residual SS =  .0174645
+
+      Source |       SS       df       MS            Number of obs =        15
+-------------+------------------------------         F(  2,    12) =   1616.38
+       Model |  4.70488069     2  2.35244034         Prob > F      =    0.0000
+    Residual |  .017464485    12  .001455374         R-squared     =    0.9963
+-------------+------------------------------         Adj R-squared =    0.9957
+       Total |  4.72234517    14  .337310369         Root MSE      =  .0381494
+                                                     Res. dev.     = -58.76639
+
+------------------------------------------------------------------------------
+      lnYtou |      Coef.   Std. Err.      t    P>|t|     [95% Conf. Interval]
+-------------+----------------------------------------------------------------
+          b1 |  -124.9238   53.08452    -2.35   0.036    -240.5851   -9.262583
+          b2 |   1904.694   99.96179    19.05   0.000     1686.896    2122.492
+          b3 |   28.96148   32.16806     0.90   0.386     -41.1267    99.04966
+------------------------------------------------------------------------------
+* Parameter b1 taken as constant term in model & ANOVA table
+ (SEs, P values, CIs, and correlations are asymptotic approximations)

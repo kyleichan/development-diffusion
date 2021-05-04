@@ -1,0 +1,26 @@
+=============================================================================================================
+Estimation for Aviation_freight and SUD, specification 2
+=============================================================================================================
+   
+US parameters:
+-------------------------------------------------------------------
+elascoef1 = 4.716060423565893
+elascoef2 = 4.716060423565893
+trend     = .1544685281312922
+-------------------------------------------------------------------
+   
+Model specification estimated:
+( lnYtou = lnY + {b1} + (1.3-1)*ln(t-{b2=1954})*{b3=4.716060423565893} - (1-.3)*lnYpercap*4.716060423565893 + 
+> .1544685281312922*t  ) 
+-------------------------------------------------------------------
+(obs = 33)
+
+Iteration 0:  residual SS =   3329232
+Iteration 1:  residual SS =   3303741
+Iteration 2:  residual SS =   2530160
+Iteration 3:  residual SS =   1937569
+Iteration 4:  residual SS =   1702910
+Iteration 5:  residual SS =   1598088
+Iteration 6:  residual SS =   1548524
+Iteration 7:  cannot calculate derivatives
+equation/system not identified

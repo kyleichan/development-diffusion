@@ -1,0 +1,26 @@
+=============================================================================================================
+Estimation for Electricity and SWZ, specification 2
+=============================================================================================================
+   
+US parameters:
+-------------------------------------------------------------------
+elascoef1 = 1.2233781159605
+elascoef2 = 1.2233781159605
+trend     = .0376276026887113
+-------------------------------------------------------------------
+   
+Model specification estimated:
+( lnYtou = lnY + {b1} + (1.3-1)*ln(t-{b2=1915})*{b3=1.2233781159605} - (1-.3)*lnYpercap*1.2233781159605 + .037
+> 6276026887113*t  ) 
+-------------------------------------------------------------------
+(obs = 82)
+
+Iteration 0:  residual SS =  299355.6
+Iteration 1:  residual SS =    290141
+Iteration 2:  residual SS =  222163.3
+Iteration 3:  residual SS =  170099.9
+Iteration 4:  residual SS =  130229.6
+Iteration 5:  residual SS =  114458.3
+Iteration 6:  residual SS =  100593.8
+Iteration 7:  cannot calculate derivatives
+equation/system not identified

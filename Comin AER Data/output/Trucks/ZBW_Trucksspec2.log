@@ -1,0 +1,25 @@
+=============================================================================================================
+Estimation for Trucks and ZBW, specification 2
+=============================================================================================================
+   
+US parameters:
+-------------------------------------------------------------------
+elascoef1 = 6.838224310560782
+elascoef2 = 6.838224310560782
+trend     = .0830416299572568
+-------------------------------------------------------------------
+   
+Model specification estimated:
+( lnYtou = lnY + {b1} + (1.3-1)*ln(t-{b2=1945})*{b3=6.838224310560782} - (1-.3)*lnYpercap*6.838224310560782 + 
+> .0830416299572568*t  ) 
+-------------------------------------------------------------------
+(obs = 41)
+
+Iteration 0:  residual SS =   1248724
+Iteration 1:  residual SS =   1210711
+Iteration 2:  residual SS =  303250.9
+Iteration 3:  residual SS =    170597
+Iteration 4:  residual SS =  95952.85
+Iteration 5:  residual SS =  73461.65
+Iteration 6:  cannot calculate derivatives
+equation/system not identified

@@ -1,0 +1,25 @@
+=============================================================================================================
+Estimation for rail_pass and COL, specification 2
+=============================================================================================================
+   
+US parameters:
+-------------------------------------------------------------------
+elascoef1 = 2.072647503008684
+elascoef2 = 2.072647503008684
+trend     = -.0240116130922127
+-------------------------------------------------------------------
+   
+Model specification estimated:
+( lnYtou = lnY + {b1} + (1.3-1)*ln(t-{b2=1926})*{b3=2.072647503008684} - (1-.3)*lnYpercap*2.072647503008684 + 
+> -.0240116130922127*t  ) 
+-------------------------------------------------------------------
+(obs = 62)
+
+Iteration 0:  residual SS =  107835.6
+Iteration 1:  residual SS =  26810.68
+Iteration 2:  residual SS =  25161.75
+Iteration 3:  residual SS =  22124.09
+Iteration 4:  residual SS =  19449.69
+Iteration 5:  residual SS =  17100.58
+Iteration 6:  cannot calculate derivatives
+equation/system not identified

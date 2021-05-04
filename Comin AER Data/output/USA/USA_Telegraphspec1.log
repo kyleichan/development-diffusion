@@ -1,0 +1,48 @@
+=============================================================================================================
+Estimation for Telegraph and USA, specification 1
+=============================================================================================================
+   
+US parameters:
+-------------------------------------------------------------------
+elascoef1 = {b3}
+elascoef2 = {b3}
+trend     = {b5}
+-------------------------------------------------------------------
+   
+Model specification estimated:
+( lnYtou = lnY + {b1} + (1.3-1)*ln(t-{b2=1865})*{b3} - (1-.3)*lnYpercap*{b3} + {b5}*t  ) 
+-------------------------------------------------------------------
+(obs = 112)
+
+Iteration 0:  residual SS =  9359.163
+Iteration 1:  residual SS =  18.45769
+Iteration 2:  residual SS =  18.09747
+Iteration 3:  residual SS =  18.07955
+Iteration 4:  residual SS =  18.07729
+Iteration 5:  residual SS =  18.07697
+Iteration 6:  residual SS =  18.07691
+Iteration 7:  residual SS =   18.0769
+Iteration 8:  residual SS =  18.07689
+Iteration 9:  residual SS =  18.07689
+Iteration 10:  residual SS =  18.07689
+Iteration 11:  residual SS =  18.07689
+Iteration 12:  residual SS =  18.07689
+
+      Source |       SS       df       MS            Number of obs =       112
+-------------+------------------------------         F(  3,   108) =    105.13
+       Model |  52.7874095     3  17.5958032         Prob > F      =    0.0000
+    Residual |  18.0768941   108  .167378649         R-squared     =    0.7449
+-------------+------------------------------         Adj R-squared =    0.7378
+       Total |  70.8643036   111   .63841715         Root MSE      =  .4091194
+                                                     Res. dev.     =  113.5694
+
+------------------------------------------------------------------------------
+      lnYtou |      Coef.   Std. Err.      t    P>|t|     [95% Conf. Interval]
+-------------+----------------------------------------------------------------
+          b1 |  -13.87399   7.080622    -1.96   0.053    -27.90902    .1610276
+          b2 |   1866.848   1.291994  1444.94   0.000     1864.287    1869.409
+          b3 |   4.086018   .3979016    10.27   0.000     3.297308    4.874728
+          b5 |   .0028735   .0036821     0.78   0.437    -.0044251     .010172
+------------------------------------------------------------------------------
+* Parameter b1 taken as constant term in model & ANOVA table
+ (SEs, P values, CIs, and correlations are asymptotic approximations)

@@ -1,0 +1,123 @@
+\documentclass[10pt,a4paper]{article}
+\usepackage[utf8]{inputenc}
+\usepackage{amsmath}
+\usepackage{amsfonts}
+\usepackage{amssymb}
+\begin{document}
+
+\begin{table}[ht]
+\centering
+\begin{tabular}{rlrrrrl}
+  \hline
+ & countrycode & jaccard & hammond & exp.jaccard & exp.hammond & region \\ 
+  \hline
+1 & CAN & 0.34 & 0.02 & 1.42 & 1.02 & AmericasNorthCentral \\ 
+  2 & GBR & 0.34 & 0.02 & 1.41 & 1.02 & Europe \\ 
+  3 & DEU & 0.45 & 0.03 & 1.57 & 1.03 & Europe \\ 
+  4 & NLD & 0.46 & 0.03 & 1.59 & 1.03 & Europe \\ 
+  5 & FRO & 0.47 & 0.03 & 1.59 & 1.03 & Europe \\ 
+  6 & ALB & 0.48 & 0.03 & 1.62 & 1.03 & Europe \\ 
+  7 & LTU & 0.49 & 0.03 & 1.63 & 1.03 & Europe \\ 
+  8 & ROU & 0.50 & 0.03 & 1.65 & 1.03 & Europe \\ 
+  9 & TUR & 0.51 & 0.03 & 1.67 & 1.03 & Europe \\ 
+  10 & ISR & 0.51 & 0.03 & 1.67 & 1.03 & MiddleEast \\ 
+   \hline
+\end{tabular}
+\end{table}
+
+\begin{table}[ht]
+\centering
+\begin{tabular}{rlrrrrl}
+  \hline
+ & countrycode & jaccard & hammond & exp.jaccard & exp.hammond & region \\ 
+  \hline
+1 & CAN & 0.34 & 0.02 & 1.42 & 1.02 & AmericasNorthCentral \\ 
+  2 & GBR & 0.34 & 0.02 & 1.41 & 1.02 & Europe \\ 
+  3 & NLD & 0.46 & 0.03 & 1.59 & 1.03 & Europe \\ 
+  4 & DEU & 0.45 & 0.03 & 1.57 & 1.03 & Europe \\ 
+  5 & FRO & 0.47 & 0.03 & 1.59 & 1.03 & Europe \\ 
+  6 & LTU & 0.49 & 0.03 & 1.63 & 1.03 & Europe \\ 
+  7 & ROU & 0.50 & 0.03 & 1.65 & 1.03 & Europe \\ 
+  8 & ISR & 0.51 & 0.03 & 1.67 & 1.03 & MiddleEast \\ 
+  9 & TUR & 0.51 & 0.03 & 1.67 & 1.03 & Europe \\ 
+  10 & ALB & 0.48 & 0.03 & 1.62 & 1.03 & Europe \\ 
+   \hline
+\end{tabular}
+\end{table}
+
+
+\begin{table}[ht]
+\centering
+\begin{tabular}{rrrrr}
+  \hline
+ & Estimate & Std. Error & t value & Pr($>$$|$t$|$) \\ 
+  \hline
+(Intercept) & 10.8118 & 0.8528 & 12.68 & 0.0000 \\ 
+  jaccard & -3.2269 & 1.3618 & -2.37 & 0.0193 \\ 
+   \hline
+\end{tabular}
+\end{table}
+
+\begin{table}[ht]
+\centering
+\begin{tabular}{rrrrr}
+  \hline
+ & Estimate & Std. Error & t value & Pr($>$$|$t$|$) \\ 
+  \hline
+(Intercept) & 10.5839 & 0.6232 & 16.98 & 0.0000 \\ 
+  jaccard & -1.0083 & 1.0695 & -0.94 & 0.3476 \\ 
+  regionAmericasNorthCentral & -1.0870 & 0.3271 & -3.32 & 0.0012 \\ 
+  regionAfrica & -2.2735 & 0.1954 & -11.64 & 0.0000 \\ 
+  regionAmericaSouth & -0.8326 & 0.3193 & -2.61 & 0.0102 \\ 
+  regionCentralSouthAsia & -1.4700 & 0.2775 & -5.30 & 0.0000 \\ 
+  regionEastAsia & -0.8576 & 0.2933 & -2.92 & 0.0041 \\ 
+  regionMiddleEast & -0.5577 & 0.2940 & -1.90 & 0.0602 \\ 
+  regionPacific & -0.0862 & 0.5101 & -0.17 & 0.8661 \\ 
+   \hline
+\end{tabular}
+\end{table}
+
+\begin{table}[ht]
+\centering
+\begin{tabular}{rlrrrrl}
+  \hline
+ & countrycode & jaccard & hammond & exp.jaccard & exp.hammond & region \\ 
+  \hline
+1 & JPN & 0.59 & 0.03 & 1.80 & 1.04 & EastAsia \\ 
+  2 & AFG & 0.56 & 0.03 & 1.76 & 1.04 & CentralSouthAsia \\ 
+  3 & GHA & 0.55 & 0.04 & 1.74 & 1.04 & Africa \\ 
+  4 & IRQ & 0.55 & 0.04 & 1.74 & 1.04 & MiddleEast \\ 
+  5 & THA & 0.56 & 0.04 & 1.75 & 1.04 & EastAsia \\ 
+  6 & BGR & 0.58 & 0.04 & 1.79 & 1.04 & Europe \\ 
+  7 & MKD & 0.56 & 0.04 & 1.74 & 1.04 & Europe \\ 
+  8 & PRT & 0.57 & 0.04 & 1.77 & 1.04 & Europe \\ 
+  9 & SVK & 0.56 & 0.04 & 1.74 & 1.04 & Europe \\ 
+  10 & SVN & 0.58 & 0.04 & 1.79 & 1.04 & Europe \\ 
+  11 & UKR & 0.57 & 0.04 & 1.77 & 1.04 & Europe \\ 
+  12 & POL & 0.53 & 0.04 & 1.70 & 1.04 & Europe \\ 
+   \hline
+\end{tabular}
+\end{table}
+
+\begin{table}[ht]
+\centering
+\begin{tabular}{rlrrrrl}
+  \hline
+ & countrycode & jaccard & hammond & exp.jaccard & exp.hammond & region \\ 
+  \hline
+1 & ISR & 0.51 & 0.03 & 1.67 & 1.03 & MiddleEast \\ 
+  2 & PSE & 0.52 & 0.03 & 1.69 & 1.03 & MiddleEast \\ 
+  3 & POL & 0.53 & 0.04 & 1.70 & 1.04 & Europe \\ 
+  4 & ARE & 0.53 & 0.03 & 1.70 & 1.04 & MiddleEast \\ 
+  5 & IRN & 0.53 & 0.03 & 1.71 & 1.03 & CentralSouthAsia \\ 
+  6 & NOR & 0.54 & 0.04 & 1.71 & 1.04 & Europe \\ 
+  7 & MDV & 0.55 & 0.03 & 1.73 & 1.04 & CentralSouthAsia \\ 
+  8 & TUN & 0.55 & 0.03 & 1.73 & 1.04 & Africa \\ 
+  9 & CHE & 0.55 & 0.04 & 1.73 & 1.04 & Europe \\ 
+  10 & GHA & 0.55 & 0.04 & 1.74 & 1.04 & Africa \\ 
+  11 & SWE & 0.55 & 0.04 & 1.74 & 1.04 & Europe \\ 
+   \hline
+\end{tabular}
+\end{table}
+
+\end{document}

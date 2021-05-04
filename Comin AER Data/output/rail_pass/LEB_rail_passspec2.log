@@ -1,0 +1,36 @@
+=============================================================================================================
+Estimation for rail_pass and LEB, specification 2
+=============================================================================================================
+   
+US parameters:
+-------------------------------------------------------------------
+elascoef1 = 2.072647503008684
+elascoef2 = 2.072647503008684
+trend     = -.0240116130922127
+-------------------------------------------------------------------
+   
+Model specification estimated:
+( lnYtou = lnY + {b1} + (1.3-1)*ln(t-{b2=1945})*{b3=2.072647503008684} - (1-.3)*lnYpercap*2.072647503008684 + 
+> -.0240116130922127*t  ) 
+-------------------------------------------------------------------
+(obs = 25)
+
+Iteration 0:  residual SS =  39977.32
+Iteration 1:  residual SS =  73.64938
+Iteration 2:  residual SS =  73.33408
+Iteration 3:  residual SS =  72.86102
+Iteration 4:  residual SS =  72.76532
+Iteration 5:  residual SS =  71.97116
+Iteration 6:  residual SS =  71.71724
+Iteration 7:  residual SS =  69.50014
+Iteration 8:  residual SS =  66.33331
+Iteration 9:  residual SS =  58.93719
+Iteration 10:  residual SS =  46.84832
+Iteration 11:  residual SS =  36.75199
+Iteration 12:  residual SS =  28.82045
+Iteration 13:  residual SS =  22.70521
+Iteration 14:  residual SS =  18.01229
+Iteration 15:  residual SS =  14.41184
+Iteration 16:  residual SS =   11.6266
+Iteration 17:  cannot calculate derivatives
+equation/system not identified

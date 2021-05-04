@@ -1,0 +1,29 @@
+=============================================================================================================
+Estimation for Trucks and ZAM, specification 2
+=============================================================================================================
+   
+US parameters:
+-------------------------------------------------------------------
+elascoef1 = 6.838224310560782
+elascoef2 = 6.838224310560782
+trend     = .0830416299572568
+-------------------------------------------------------------------
+   
+Model specification estimated:
+( lnYtou = lnY + {b1} + (1.3-1)*ln(t-{b2=1945})*{b3=6.838224310560782} - (1-.3)*lnYpercap*6.838224310560782 + 
+> .0830416299572568*t  ) 
+-------------------------------------------------------------------
+(obs = 41)
+
+Iteration 0:  residual SS =   1265799
+Iteration 1:  residual SS =   1227228
+Iteration 2:  residual SS =  939823.7
+Iteration 3:  residual SS =  719625.8
+Iteration 4:  residual SS =  550986.9
+Iteration 5:  residual SS =  421852.7
+Iteration 6:  residual SS =  322965.5
+Iteration 7:  residual SS =  283854.8
+Iteration 8:  residual SS =  249477.8
+Iteration 9:  residual SS =    219264
+Iteration 10:  cannot calculate derivatives
+equation/system not identified

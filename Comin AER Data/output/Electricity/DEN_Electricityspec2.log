@@ -1,0 +1,50 @@
+=============================================================================================================
+Estimation for Electricity and DEN, specification 2
+=============================================================================================================
+   
+US parameters:
+-------------------------------------------------------------------
+elascoef1 = 1.2233781159605
+elascoef2 = 1.2233781159605
+trend     = .0376276026887113
+-------------------------------------------------------------------
+   
+Model specification estimated:
+( lnYtou = lnY + {b1} + (1.3-1)*ln(t-{b2=1915})*{b3=1.2233781159605} - (1-.3)*lnYpercap*1.2233781159605 + .037
+> 6276026887113*t  ) 
+-------------------------------------------------------------------
+(obs = 82)
+
+Iteration 0:  residual SS =    310487
+Iteration 1:  residual SS =  300862.4
+Iteration 2:  residual SS =  6.091419
+Iteration 3:  residual SS =  4.744474
+Iteration 4:  residual SS =  4.022747
+Iteration 5:  residual SS =  4.022449
+Iteration 6:  residual SS =   4.02243
+Iteration 7:  residual SS =  4.022427
+Iteration 8:  residual SS =  4.022427
+Iteration 9:  residual SS =  4.022426
+Iteration 10:  residual SS =  4.022426
+Iteration 11:  residual SS =  4.022426
+Iteration 12:  residual SS =  4.022426
+Iteration 13:  residual SS =  4.022426
+Iteration 14:  residual SS =  4.022426
+
+      Source |       SS       df       MS            Number of obs =        82
+-------------+------------------------------         F(  2,    79) =   2119.98
+       Model |  215.885353     2  107.942676         Prob > F      =    0.0000
+    Residual |  4.02242635    79  .050916789         R-squared     =    0.9817
+-------------+------------------------------         Adj R-squared =    0.9812
+       Total |  219.907779    81  2.71491085         Root MSE      =  .2256475
+                                                     Res. dev.     = -14.51047
+
+------------------------------------------------------------------------------
+      lnYtou |      Coef.   Std. Err.      t    P>|t|     [95% Conf. Interval]
+-------------+----------------------------------------------------------------
+          b1 |   -66.1195   2.103099   -31.44   0.000    -70.30561   -61.93339
+          b2 |   1888.828   17.14565   110.16   0.000     1854.701    1922.956
+          b3 |    4.68277   1.365617     3.43   0.001     1.964577    7.400963
+------------------------------------------------------------------------------
+* Parameter b1 taken as constant term in model & ANOVA table
+ (SEs, P values, CIs, and correlations are asymptotic approximations)

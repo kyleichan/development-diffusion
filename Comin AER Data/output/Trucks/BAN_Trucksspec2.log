@@ -1,0 +1,26 @@
+=============================================================================================================
+Estimation for Trucks and BAN, specification 2
+=============================================================================================================
+   
+US parameters:
+-------------------------------------------------------------------
+elascoef1 = 6.838224310560782
+elascoef2 = 6.838224310560782
+trend     = .0830416299572568
+-------------------------------------------------------------------
+   
+Model specification estimated:
+( lnYtou = lnY + {b1} + (1.3-1)*ln(t-{b2=1945})*{b3=6.838224310560782} - (1-.3)*lnYpercap*6.838224310560782 + 
+> .0830416299572568*t  ) 
+-------------------------------------------------------------------
+(obs = 44)
+
+Iteration 0:  residual SS =   1434498
+Iteration 1:  residual SS =   1390673
+Iteration 2:  residual SS =    782558
+Iteration 3:  residual SS =  440288.6
+Iteration 4:  residual SS =  247643.5
+Iteration 5:  residual SS =  189581.6
+Iteration 6:  residual SS =  166625.2
+Iteration 7:  cannot calculate derivatives
+equation/system not identified

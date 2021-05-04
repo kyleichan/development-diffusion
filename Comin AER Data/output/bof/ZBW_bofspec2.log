@@ -1,0 +1,27 @@
+=============================================================================================================
+Estimation for bof and ZBW, specification 2
+=============================================================================================================
+   
+US parameters:
+-------------------------------------------------------------------
+elascoef1 = 6.297341445722362
+elascoef2 = 6.297341445722362
+trend     = -.0221095683639657
+-------------------------------------------------------------------
+   
+Model specification estimated:
+( lnYtou = lnY + {b1} + (1.3-1)*ln(t-{b2=1969})*{b3=6.297341445722362} - (1-.3)*lnYpercap*6.297341445722362 + 
+> -.0221095683639657*t  ) 
+-------------------------------------------------------------------
+(obs = 27)
+
+Iteration 0:  residual SS =  36239.25
+Iteration 1:  residual SS =  14.95521
+Iteration 2:  residual SS =  13.47627
+Iteration 3:  residual SS =  12.66511
+Iteration 4:  residual SS =  12.40401
+Iteration 5:  residual SS =  12.17129
+Iteration 6:  residual SS =  11.99878
+Iteration 7:  residual SS =  11.90729
+Iteration 8:  cannot calculate derivatives
+equation/system not identified

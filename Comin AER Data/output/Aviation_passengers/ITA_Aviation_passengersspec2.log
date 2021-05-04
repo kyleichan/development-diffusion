@@ -1,0 +1,65 @@
+=============================================================================================================
+Estimation for Aviation_passengers and ITA, specification 2
+=============================================================================================================
+   
+US parameters:
+-------------------------------------------------------------------
+elascoef1 = 3.606113678690623
+elascoef2 = 3.606113678690623
+trend     = .1050463220906398
+-------------------------------------------------------------------
+   
+Model specification estimated:
+( lnYtou = lnY + {b1} + (1.3-1)*ln(t-{b2=1921})*{b3=3.606113678690623} - (1-.3)*lnYpercap*3.606113678690623 + 
+> .1050463220906398*t  ) 
+-------------------------------------------------------------------
+(obs = 57)
+
+Iteration 0:  residual SS =   2522047
+Iteration 1:  residual SS =   2482845
+Iteration 2:  residual SS =  25.30129
+Iteration 3:  residual SS =  23.65452
+Iteration 4:  residual SS =   23.4472
+Iteration 5:  residual SS =   23.0167
+Iteration 6:  residual SS =  22.90872
+Iteration 7:  residual SS =  22.68584
+Iteration 8:  residual SS =  22.50664
+Iteration 9:  residual SS =  22.35473
+Iteration 10:  residual SS =   22.2183
+Iteration 11:  residual SS =  22.08989
+Iteration 12:  residual SS =  21.96592
+Iteration 13:  residual SS =  21.93497
+Iteration 14:  residual SS =   21.7681
+Iteration 15:  residual SS =  21.59645
+Iteration 16:  residual SS =  21.08008
+Iteration 17:  residual SS =   21.0451
+Iteration 18:  residual SS =   21.0431
+Iteration 19:  residual SS =   21.0429
+Iteration 20:  residual SS =  21.04289
+Iteration 21:  residual SS =  21.04288
+Iteration 22:  residual SS =  21.04288
+Iteration 23:  residual SS =  21.04288
+Iteration 24:  residual SS =  21.04288
+Iteration 25:  residual SS =  21.04288
+Iteration 26:  residual SS =  21.04288
+Iteration 27:  residual SS =  21.04288
+Iteration 28:  residual SS =  21.04288
+Iteration 29:  residual SS =  21.04288
+
+      Source |       SS       df       MS            Number of obs =        57
+-------------+------------------------------         F(  2,    54) =    369.49
+       Model |  287.964917     2  143.982458         Prob > F      =    0.0000
+    Residual |  21.0428841    54  .389683038         R-squared     =    0.9319
+-------------+------------------------------         Adj R-squared =    0.9294
+       Total |  309.007801    56  5.51799644         Root MSE      =   .624246
+                                                     Res. dev.     =  104.9591
+
+------------------------------------------------------------------------------
+      lnYtou |      Coef.   Std. Err.      t    P>|t|     [95% Conf. Interval]
+-------------+----------------------------------------------------------------
+          b1 |  -246.4715   78.48931    -3.14   0.003    -403.8331   -89.10996
+          b2 |   1791.515   270.4966     6.62   0.000     1249.202    2333.828
+          b3 |   25.93495   42.85643     0.61   0.548    -59.98702    111.8569
+------------------------------------------------------------------------------
+* Parameter b1 taken as constant term in model & ANOVA table
+ (SEs, P values, CIs, and correlations are asymptotic approximations)

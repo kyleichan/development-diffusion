@@ -1,0 +1,26 @@
+=============================================================================================================
+Estimation for Ships and KUW, specification 2
+=============================================================================================================
+   
+US parameters:
+-------------------------------------------------------------------
+elascoef1 = 3.313753501972318
+elascoef2 = 3.313753501972318
+trend     = .0272547819258236
+-------------------------------------------------------------------
+   
+Model specification estimated:
+( lnYtou = lnY + {b1} + (1.3-1)*ln(t-{b2=1960})*{b3=3.313753501972318} - (1-.3)*lnYpercap*3.313753501972318 + 
+> .0272547819258236*t  ) 
+-------------------------------------------------------------------
+(obs = 28)
+
+Iteration 0:  residual SS =  79597.39
+Iteration 1:  residual SS =  74781.63
+Iteration 2:  residual SS =  65760.38
+Iteration 3:  residual SS =  57806.15
+Iteration 4:  residual SS =  44237.59
+Iteration 5:  residual SS =  38879.96
+Iteration 6:  residual SS =  34169.57
+Iteration 7:  cannot calculate derivatives
+equation/system not identified

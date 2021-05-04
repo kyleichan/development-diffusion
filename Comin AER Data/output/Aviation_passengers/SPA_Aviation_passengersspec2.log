@@ -1,0 +1,59 @@
+=============================================================================================================
+Estimation for Aviation_passengers and SPA, specification 2
+=============================================================================================================
+   
+US parameters:
+-------------------------------------------------------------------
+elascoef1 = 3.606113678690623
+elascoef2 = 3.606113678690623
+trend     = .1050463220906398
+-------------------------------------------------------------------
+   
+Model specification estimated:
+( lnYtou = lnY + {b1} + (1.3-1)*ln(t-{b2=1924})*{b3=3.606113678690623} - (1-.3)*lnYpercap*3.606113678690623 + 
+> .1050463220906398*t  ) 
+-------------------------------------------------------------------
+(obs = 61)
+
+Iteration 0:  residual SS =   2720565
+Iteration 1:  residual SS =   2678329
+Iteration 2:  residual SS =  41.21233
+Iteration 3:  residual SS =   32.8631
+Iteration 4:  residual SS =  32.62182
+Iteration 5:  residual SS =  22.85857
+Iteration 6:  residual SS =  22.84332
+Iteration 7:  residual SS =   22.8387
+Iteration 8:  residual SS =   22.8373
+Iteration 9:  residual SS =  22.83691
+Iteration 10:  residual SS =  22.83675
+Iteration 11:  residual SS =  22.83669
+Iteration 12:  residual SS =  22.83666
+Iteration 13:  residual SS =  22.83665
+Iteration 14:  residual SS =  22.83665
+Iteration 15:  residual SS =  22.83665
+Iteration 16:  residual SS =  22.83665
+Iteration 17:  residual SS =  22.83665
+Iteration 18:  residual SS =  22.83665
+Iteration 19:  residual SS =  22.83665
+Iteration 20:  residual SS =  22.83665
+Iteration 21:  residual SS =  22.83665
+Iteration 22:  residual SS =  22.83665
+Iteration 23:  residual SS =  22.83665
+
+      Source |       SS       df       MS            Number of obs =        61
+-------------+------------------------------         F(  2,    58) =    705.87
+       Model |  555.850396     2  277.925198         Prob > F      =    0.0000
+    Residual |  22.8366471    58  .393735294         R-squared     =    0.9605
+-------------+------------------------------         Adj R-squared =    0.9592
+       Total |  578.687043    60  9.64478405         Root MSE      =  .6274833
+                                                     Res. dev.     =  113.1776
+
+------------------------------------------------------------------------------
+      lnYtou |      Coef.   Std. Err.      t    P>|t|     [95% Conf. Interval]
+-------------+----------------------------------------------------------------
+          b1 |  -230.9793   8.291373   -27.86   0.000    -247.5763   -214.3823
+          b2 |   1898.361   15.36806   123.53   0.000     1867.598    1929.123
+          b3 |   19.09768   5.500393     3.47   0.001     8.087446    30.10791
+------------------------------------------------------------------------------
+* Parameter b1 taken as constant term in model & ANOVA table
+ (SEs, P values, CIs, and correlations are asymptotic approximations)

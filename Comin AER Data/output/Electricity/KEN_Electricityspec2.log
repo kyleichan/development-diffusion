@@ -1,0 +1,25 @@
+=============================================================================================================
+Estimation for Electricity and KEN, specification 2
+=============================================================================================================
+   
+US parameters:
+-------------------------------------------------------------------
+elascoef1 = 1.2233781159605
+elascoef2 = 1.2233781159605
+trend     = .0376276026887113
+-------------------------------------------------------------------
+   
+Model specification estimated:
+( lnYtou = lnY + {b1} + (1.3-1)*ln(t-{b2=1945})*{b3=1.2233781159605} - (1-.3)*lnYpercap*1.2233781159605 + .037
+> 6276026887113*t  ) 
+-------------------------------------------------------------------
+(obs = 52)
+
+Iteration 0:  residual SS =  215516.6
+Iteration 1:  residual SS =  208838.3
+Iteration 2:  residual SS =  52242.05
+Iteration 3:  residual SS =  29386.73
+Iteration 4:  residual SS =  7342.697
+Iteration 5:  residual SS =  1.073949
+Iteration 6:  cannot calculate derivatives
+equation/system not identified

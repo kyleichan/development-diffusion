@@ -1,0 +1,48 @@
+=============================================================================================================
+Estimation for Electricity and IRN, specification 2
+=============================================================================================================
+   
+US parameters:
+-------------------------------------------------------------------
+elascoef1 = 1.2233781159605
+elascoef2 = 1.2233781159605
+trend     = .0376276026887113
+-------------------------------------------------------------------
+   
+Model specification estimated:
+( lnYtou = lnY + {b1} + (1.3-1)*ln(t-{b2=1949})*{b3=1.2233781159605} - (1-.3)*lnYpercap*1.2233781159605 + .037
+> 6276026887113*t  ) 
+-------------------------------------------------------------------
+(obs = 44)
+
+Iteration 0:  residual SS =    174180
+Iteration 1:  residual SS =  168760.5
+Iteration 2:  residual SS =  4.621256
+Iteration 3:  residual SS =  3.105589
+Iteration 4:  residual SS =  1.384168
+Iteration 5:  residual SS =  1.110666
+Iteration 6:  residual SS =   1.09716
+Iteration 7:  residual SS =   1.09716
+Iteration 8:  residual SS =   1.09716
+Iteration 9:  residual SS =   1.09716
+Iteration 10:  residual SS =   1.09716
+Iteration 11:  residual SS =   1.09716
+Iteration 12:  residual SS =   1.09716
+
+      Source |       SS       df       MS            Number of obs =        44
+-------------+------------------------------         F(  2,    41) =   1829.60
+       Model |  97.9198985     2  48.9599492         Prob > F      =    0.0000
+    Residual |  1.09715956    41  .026759989         R-squared     =    0.9889
+-------------+------------------------------         Adj R-squared =    0.9884
+       Total |   99.017058    43  2.30272228         Root MSE      =  .1635848
+                                                     Res. dev.     = -37.55787
+
+------------------------------------------------------------------------------
+      lnYtou |      Coef.   Std. Err.      t    P>|t|     [95% Conf. Interval]
+-------------+----------------------------------------------------------------
+          b1 |  -65.81145   .6240255  -105.46   0.000     -67.0717   -64.55121
+          b2 |   1947.612   2.387443   815.77   0.000      1942.79    1952.433
+          b3 |   4.080441   .5082064     8.03   0.000     3.054097    5.106785
+------------------------------------------------------------------------------
+* Parameter b1 taken as constant term in model & ANOVA table
+ (SEs, P values, CIs, and correlations are asymptotic approximations)

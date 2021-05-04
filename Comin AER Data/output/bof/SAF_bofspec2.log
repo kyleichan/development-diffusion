@@ -1,0 +1,28 @@
+=============================================================================================================
+Estimation for bof and SAF, specification 2
+=============================================================================================================
+   
+US parameters:
+-------------------------------------------------------------------
+elascoef1 = 6.297341445722362
+elascoef2 = 6.297341445722362
+trend     = -.0221095683639657
+-------------------------------------------------------------------
+   
+Model specification estimated:
+( lnYtou = lnY + {b1} + (1.3-1)*ln(t-{b2=1969})*{b3=6.297341445722362} - (1-.3)*lnYpercap*6.297341445722362 + 
+> -.0221095683639657*t  ) 
+-------------------------------------------------------------------
+(obs = 27)
+
+Iteration 0:  residual SS =  46477.29
+Iteration 1:  residual SS =  25.25253
+Iteration 2:  residual SS =  13.12345
+Iteration 3:  residual SS =  8.692796
+Iteration 4:  residual SS =  7.759155
+Iteration 5:  residual SS =  6.961587
+Iteration 6:  residual SS =   6.27809
+Iteration 7:  residual SS =   5.69897
+Iteration 8:  residual SS =  5.240409
+Iteration 9:  cannot calculate derivatives
+equation/system not identified

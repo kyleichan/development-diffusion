@@ -1,0 +1,25 @@
+=============================================================================================================
+Estimation for Trucks and NGA, specification 2
+=============================================================================================================
+   
+US parameters:
+-------------------------------------------------------------------
+elascoef1 = 6.838224310560782
+elascoef2 = 6.838224310560782
+trend     = .0830416299572568
+-------------------------------------------------------------------
+   
+Model specification estimated:
+( lnYtou = lnY + {b1} + (1.3-1)*ln(t-{b2=1945})*{b3=6.838224310560782} - (1-.3)*lnYpercap*6.838224310560782 + 
+> .0830416299572568*t  ) 
+-------------------------------------------------------------------
+(obs = 44)
+
+Iteration 0:  residual SS =   1385607
+Iteration 1:  residual SS =   1343300
+Iteration 2:  residual SS =  755937.6
+Iteration 3:  residual SS =  425302.8
+Iteration 4:  residual SS =  239193.8
+Iteration 5:  residual SS =  183115.7
+Iteration 6:  cannot calculate derivatives
+equation/system not identified

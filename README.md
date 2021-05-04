@@ -1,13 +1,13 @@
 ## Linguistic Distance and Patterns of Economic Growth
 Kyle Chan
 April 13, 2016
-<br>
-<br>
+/  
+/  
 **Research question:**
 Is there a relationship between linguistic distances and economic growth patterns?
 (even after controlling for geographic distance)
-<br>
-<br>
+/  
+/  
 **Data:**  
 1. Linguistic: Ruhlen database of phonemic presence/absence, 2,082 languages, 728 phonemes, Source: Creanza et al (2015) PNAS paper
 2. Economic: Historical per capita GDP data from 1 AD to present, complete 1950-2008 income data for 115 countries, Source: Maddison Project

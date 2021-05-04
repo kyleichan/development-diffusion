@@ -1,19 +1,19 @@
 ## Linguistic Distance and Patterns of Economic Growth
-### An Analysis in R
 Kyle Chan
 April 13, 2016
-
+<br>
+<br>
 **Research question:**
 Is there a relationship between linguistic distances and economic growth patterns?
 (even after controlling for geographic distance)
-  
-  
+<br>
+<br>
 **Data:**  
 1. Linguistic: Ruhlen database of phonemic presence/absence, 2,082 languages, 728 phonemes, Source: Creanza et al (2015) PNAS paper
 2. Economic: Historical per capita GDP data from 1 AD to present, complete 1950-2008 income data for 115 countries, Source: Maddison Project
 3. Geographic: Latitude and longitude for all countries, Source: Google
-  
-  
+<br>
+<br>
 **Step 1: Create linguistic, economic growth, and geographic distance matrices**
 Linguistic:
 Select one plurality language per country (automatic + manual)
@@ -26,8 +26,8 @@ Euclidean distance between each country’s set of growth rates
 
 Geographic:
 great-circle distance (haversine formula) on latitude and longitude
-  
-  
+<br>
+<br>
 **Step 2: Run Mantel test on distance matrices**
 Use simple Mantel test to check for significant relationship between two distance (dissimilarity) matrices
 Running standard regression on distances matrices doesn’t work due to autocorrelation
